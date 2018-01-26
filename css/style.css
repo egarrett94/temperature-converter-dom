@@ -1,3 +1,51 @@
+body {
+	font-family: Helvetica, sans-serif;
+	color: grey;
+	background-color: silver;
+}
+
 h1 {
-  color: blue;
+	font-weight: 100;
+}
+
+div {
+	text-align: center;
+}
+
+.display {
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	width: 600px;
+	height: 200px;
+	border-radius: 20px;
+}
+
+.results {
+	text-align: center;
+	padding-top: 70px;
+	font-size: 55px;
+}
+
+#tempBox {
+	padding: 10px 125px;
+	border:2px silver solid;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.subRes {
+	padding: 5px 10px;
+	border: 1px darkgrey solid;
+	border-radius: 3px;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	margin: 10px;
+
+}
+
+.subRes:hover {
+	background-color: yellow;
+	color: grey;
 }
